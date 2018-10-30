@@ -9,9 +9,9 @@ body {
   background: #ee9ca7;
 }
 
-.hide{
+/* .hide{
 	visibility: hidden;
-}
+} */
 
 #cake {
   display: block;
@@ -38,6 +38,14 @@ body {
 #lara_archer{
 	width: 300px;
 	height: 200px;
+	-vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  margin-top: 2em;
+}
+
+#dog1 #dog2 #dog3 #dog4{
+	width: 300px;
+	height: 250px;
 	-vendor-animation-duration: 3s;
   -vendor-animation-delay: 2s;
   margin-top: 2em;
@@ -114,13 +122,13 @@ body {
 }
 
 .fuego:nth-child(2) {
-  -webkit-animation: fuego 0.5s 6.5s infinite;
-  animation: fuego 0.5s 6.5s infinite;
+  -webkit-animation: fuego 1.5s 6.5s infinite;
+  animation: fuego 1.5s 6.5s infinite;
 }
 
 .fuego:nth-child(3) {
-  -webkit-animation: fuego 0.5s 6.5s infinite;
-  animation: fuego 0.5s 6.5s infinite;
+  -webkit-animation: fuego 1s 6.5s infinite;
+  animation: fuego 1s 6.5s infinite;
 }
 
 .fuego:nth-child(4) {
@@ -129,14 +137,25 @@ body {
 }
 
 .fuego:nth-child(5) {
-  -webkit-animation: fuego 0.5s 6.5s infinite;
-  animation: fuego 0.5s 6.5s infinite;
+  -webkit-animation: fuego 0.2s 6.5s infinite;
+  animation: fuego 0.2s 6.5s infinite;
 }
 
 .fuego:nth-child(6) {
-  -webkit-animation: fuego 0.5s 6.5s infinite;
-  animation: fuego 0.5s 6.5s infinite;
+  -webkit-animation: fuego 0.2s 6.5s infinite;
+  animation: fuego 0.2s 6.5s infinite;
 }
+
+.fuego:nth-child(7) {
+  -webkit-animation: fuego 0.2s 6.5s infinite;
+  animation: fuego 0.2s 6.5s infinite;
+}
+
+.fuego:nth-child(8) {
+  -webkit-animation: fuego 0.2s 6.5s infinite;
+  animation: fuego 0.2s 6.5s infinite;
+}
+
 /* ============================================== Animation Fire
 */
 @-webkit-keyframes fuego {
